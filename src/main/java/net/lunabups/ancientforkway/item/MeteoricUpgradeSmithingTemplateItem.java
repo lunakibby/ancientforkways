@@ -1,0 +1,11 @@
+
+package net.lunabups.ancientforkway.item;
+
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+
+public class MeteoricUpgradeSmithingTemplateItem extends Item {
+	public MeteoricUpgradeSmithingTemplateItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mt_ingot",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MeteoricScrap"
+      },
+      {
+        "value": "CUSTOM:MeteoricScrap"
+      },
+      {
+        "value": "CUSTOM:MeteoricScrap"
+      },
+      {
+        "value": "CUSTOM:MeteoricScrap"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MeteoricIngot"
+    },
+    "name": "meteoric_ingot",
+    "namespace": "mod"
+  }
+}

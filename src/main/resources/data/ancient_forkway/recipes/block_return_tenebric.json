@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rt_block",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ancient_forkway:tenebric_block"
+    }
+  ],
+  "result": {
+    "item": "ancient_forkway:tenebric_ingot",
+    "count": 9
+  }
+}

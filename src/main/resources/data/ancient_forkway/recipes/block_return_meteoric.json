@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rt_block",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ancient_forkway:meteoric_block"
+    }
+  ],
+  "result": {
+    "item": "ancient_forkway:meteoric_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ancient_forkway:armour_meteoric_chestplate"
+    },
+    "title": {
+      "translate": "advancements.adv_inbued_by_strength.title"
+    },
+    "description": {
+      "translate": "advancements.adv_inbued_by_strength.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "adv_inbued_by_strength_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ancient_forkway:adv_strength_of_the_ancients"
+}

@@ -1,0 +1,1273 @@
+{
+  "mod_elements": [
+    {
+      "name": "AncientForkway",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_forkway",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MeteoricBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/block/MeteoricBlockBlock.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_block.json",
+          "src/main/resources/data/ancient_forkway/loot_tables/blocks/meteoric_block.json",
+          "src/main/resources/assets/ancient_forkway/models/block/meteoric_block.json",
+          "src/main/resources/assets/ancient_forkway/blockstates/meteoric_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MeteoricDebris",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_debris",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/loot_tables/blocks/meteoric_debris.json",
+          "src/main/resources/assets/ancient_forkway/blockstates/meteoric_debris.json",
+          "src/main/resources/assets/ancient_forkway/models/block/meteoric_debris.json",
+          "src/main/java/net/lunabups/ancientforkway/block/MeteoricDebrisBlock.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_debris.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TenebricBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/loot_tables/blocks/tenebric_block.json",
+          "src/main/java/net/lunabups/ancientforkway/block/TenebricBlockBlock.java",
+          "src/main/resources/assets/ancient_forkway/models/block/tenebric_block.json",
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_block.json",
+          "src/main/resources/assets/ancient_forkway/blockstates/tenebric_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TenebricDebris",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_debris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/block/tenebric_debris.json",
+          "src/main/java/net/lunabups/ancientforkway/block/TenebricDebrisBlock.java",
+          "src/main/resources/assets/ancient_forkway/blockstates/tenebric_debris.json",
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_debris.json",
+          "src/main/resources/data/ancient_forkway/loot_tables/blocks/tenebric_debris.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MeteoricScrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_scrap.json",
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricScrapItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricIngotItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricScrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_scrap.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricScrapItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricIngotItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_upgrade_smithing_template.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_upgrade_smithing_template.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricUpgradeSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RECBlockMeteoric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_block_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/block_meteoric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECBlockTenebric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_block_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/block_tenebric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECBlockReturnMeteoric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_block_return_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/block_return_meteoric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECBlockReturnTenebric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_block_return_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/block_return_tenebric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FURNScrapMeteoric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furn_scrap_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/furn_scrap_meteoric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FURNScrapTenebric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furn_scrap_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/furn_scrap_tenebric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BLASTScrapMeteoric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_scrap_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/blast_scrap_meteoric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BLASTScrapTenebric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_scrap_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/blast_scrap_tenebric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ArmourMeteoric",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armour_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/armour_meteoric_chestplate.json",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_meteoric_boots.json",
+          "src/main/java/net/lunabups/ancientforkway/item/ArmourMeteoricItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_meteoric_helmet.json",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_meteoric_leggings.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ArmourTenebric",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armour_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/armour_tenebric_helmet.json",
+          "src/main/java/net/lunabups/ancientforkway/item/ArmourTenebricItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_tenebric_chestplate.json",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_tenebric_boots.json",
+          "src/main/resources/assets/ancient_forkway/models/item/armour_tenebric_leggings.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricSwordItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_sword.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricSwordItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricAxeItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_axe.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricAxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_pickaxe.json",
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricPickaxeItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_pickaxe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricShovelItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricShovelItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MeteoricHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoric_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/meteoric_hoe.json",
+          "src/main/java/net/lunabups/ancientforkway/item/MeteoricHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenebricHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebric_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tenebric_hoe.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TenebricHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SMITHMeteoricBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_boots.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_leggings.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_chestplate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_helmet.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_axe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_pickaxe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_shovel.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHMeteoricHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_meteoric_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_meteoric_hoe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_boots.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_leggings.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_chestplate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_helmet.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_axe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_pickaxe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_shovel.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SMITHTenebricHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smith_tenebric_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/smith_tenebric_hoe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ADVStrengthOfTheAncients",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_strength_of_the_ancients",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/advancements/adv_strength_of_the_ancients.json"
+        ]
+      }
+    },
+    {
+      "name": "ADVPowerOfTheAncients",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_power_of_the_ancients",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/advancements/adv_power_of_the_ancients.json"
+        ]
+      }
+    },
+    {
+      "name": "TMIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tm_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/item/TMIngotItem.java",
+          "src/main/resources/assets/ancient_forkway/models/item/tm_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ADVInbuedByStrength",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_inbued_by_strength",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/advancements/adv_inbued_by_strength.json"
+        ]
+      }
+    },
+    {
+      "name": "ADVInbuedByPower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_inbued_by_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/advancements/adv_inbued_by_power.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckIfWearingFullMeteoric",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_if_wearing_full_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/procedures/CheckIfWearingFullMeteoricProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckIfWearingFullTenebric",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_if_wearing_full_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/procedures/CheckIfWearingFullTenebricProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InnerSpineSmall",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inner_spine_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inner_spine_small.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inner_spine_small_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inner_spine_small.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterSpineSmall",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_spine_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_spine_small.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_spine_small_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_spine_small.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterSpineMed",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_spine_med",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_spine_med_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_spine_med.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_spine_med.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterSpineMed",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_spine_med",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_spine_med_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_spine_med.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_spine_med.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterSkull",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_skull",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_skull.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_skull_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_skull.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterSkull",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_skull",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_skull_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_skull.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_skull.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterSkullRich",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_skull_rich",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_skull_rich_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_skull_rich.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_skull_rich.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterSkullRich",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_skull_rich",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_skull_rich.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_skull_rich_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_skull_rich.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterSpire",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_spire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_spire.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_spire.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_spire_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterSpire",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_spire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_spire.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_spire_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_spire.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterBurial",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_burial",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_burial.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_burial.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_burial_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterBurialRich",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_burial_rich",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_burial_rich_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_burial_rich.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_burial_rich.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterBurial",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_burial",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_burial_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_burial.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_burial.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterBurialRich",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_burial_rich",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_burial_rich.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_burial_rich_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_burial_rich.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "InterShards",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inter_shards",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/inter_shards_biome_modifier.json",
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/inter_shards.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/inter_shards.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "OuterShards",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_shards",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/worldgen/configured_feature/outer_shards.json",
+          "src/main/resources/data/ancient_forkway/worldgen/placed_feature/outer_shards.json",
+          "src/main/resources/data/ancient_forkway/forge/biome_modifier/outer_shards_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "RECMeteoricIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_meteoric_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/meteoric_ingot.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECTenebricIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_tenebric_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/tenebric_ingot.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECUpgradeTemplateMeteoric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_upgrade_template_meteoric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/upgrade_template_meteoric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECUpgradeTemplateMeteoricDuplicate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_upgrade_template_meteoric_duplicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/upgrade_template_meteoric_duplicate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECUpgradeTemplateTenebric",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_upgrade_template_tenebric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/rec_upgrade_template_tenebric.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RECUpgradeTemplateTenebricDuplicate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_upgrade_template_tenebric_duplicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/recipes/rec_upgrade_template_tenebric_duplicate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ADVAncientDedication",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv_ancient_dedication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_forkway/advancements/adv_ancient_dedication.json"
+        ]
+      }
+    },
+    {
+      "name": "TMHoe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tm_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_forkway/models/item/tm_hoe.json",
+          "src/main/java/net/lunabups/ancientforkway/item/TMHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CheckIfDedicatedEnough",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_if_dedicated_enough",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lunabups/ancientforkway/procedures/CheckIfDedicatedEnoughProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:ores/tenebric_scrap": [
+      "CUSTOM:TenebricDebris"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:TenebricDebris",
+      "~CUSTOM:TenebricBlock",
+      "~CUSTOM:MeteoricDebris",
+      "~CUSTOM:MeteoricBlock"
+    ],
+    "ITEMS:minecraft:transform_templates": [
+      "CUSTOM:MeteoricUpgradeSmithingTemplate",
+      "CUSTOM:TenebricUpgradeSmithingTemplate"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TenebricDebris",
+      "~CUSTOM:TenebricBlock",
+      "~CUSTOM:MeteoricDebris",
+      "~CUSTOM:MeteoricBlock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TenebricPickaxe",
+      "~CUSTOM:MeteoricPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TenebricAxe",
+      "~CUSTOM:MeteoricAxe"
+    ],
+    "ITEMS:minecraft:ores/meteoric_scrap": [
+      "CUSTOM:MeteoricDebris"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TenebricHoe",
+      "~CUSTOM:MeteoricHoe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TenebricSword",
+      "~CUSTOM:MeteoricSword"
+    ],
+    "ITEMS:forge:ores": [
+      "CUSTOM:MeteoricDebris",
+      "CUSTOM:TenebricDebris"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TenebricShovel",
+      "~CUSTOM:MeteoricShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ancient_forkway.meteoric_ingot": "Meteoric Ingot",
+      "block.ancient_forkway.tenebric_block": "Tenebric Block",
+      "item.ancient_forkway.meteoric_scrap": "Meteoric Scrap",
+      "item.ancient_forkway.tenebric_pickaxe": "Tenebric Pickaxe",
+      "advancements.adv_inbued_by_strength.descr": "Wear a full set of Meteoric Armour and use its gifts",
+      "item.ancient_forkway.tenebric_axe": "Tenebric Axe",
+      "item.ancient_forkway.armour_meteoric_leggings": "Meteoric Leggings",
+      "advancements.adv_power_of_the_ancients.title": "Power Of The Ancients",
+      "item.ancient_forkway.meteoric_shovel": "Meteoric Shovel",
+      "advancements.adv_ancient_dedication.title": "Ancient Dedication",
+      "item.ancient_forkway.tenebric_shovel": "Tenebric Shovel",
+      "item.ancient_forkway.armour_tenebric_chestplate": "Tenebric Chestplate",
+      "item.ancient_forkway.armour_meteoric_chestplate": "Meteoric Chestplate",
+      "item.ancient_forkway.tm_hoe": "Ancient Forkway Meteor-Tenebric Hoe (if you have this, you\u0027ve done a cheat)",
+      "item.ancient_forkway.tenebric_sword": "Tenebric Sword",
+      "block.ancient_forkway.meteoric_block": "Meteoric Block",
+      "item.ancient_forkway.tenebric_ingot": "Tenebric Ingot",
+      "item.ancient_forkway.meteoric_axe": "Meteoric Axe",
+      "item.ancient_forkway.tenebric_scrap": "Tenebric Scrap",
+      "item.ancient_forkway.armour_meteoric_boots": "Meteoric Boots",
+      "item.ancient_forkway.meteoric_sword": "Meteoric Sword",
+      "advancements.adv_ancient_dedication.descr": "The Dedication to make something so powerful, just for it to become one with the dirt...",
+      "advancements.adv_strength_of_the_ancients.descr": "Obtain Meteoric Debris",
+      "item.ancient_forkway.meteoric_upgrade_smithing_template": "Meteoric Upgrade Smithing Template",
+      "advancements.adv_strength_of_the_ancients.title": "Strength Of The Ancients",
+      "advancements.adv_inbued_by_power.title": "Inbued By Power",
+      "item.ancient_forkway.tenebric_upgrade_smithing_template": "Tenebric Upgrade Smithing Template",
+      "item.ancient_forkway.tm_ingot": "Ancient Forkway Meteor-Tenebric Ingot (if you have this, you\u0027ve done a cheat)",
+      "advancements.adv_inbued_by_power.descr": "Wear a full set of Tenebric Armour and use its gifts",
+      "item.ancient_forkway.meteoric_hoe": "Meteoric Hoe",
+      "advancements.adv_power_of_the_ancients.descr": "Obtain Tenebric Debris",
+      "advancements.adv_inbued_by_strength.title": "Inbued By Strength",
+      "item.ancient_forkway.meteoric_pickaxe": "Meteoric Pickaxe",
+      "block.ancient_forkway.meteoric_debris": "Outerrealm Debris",
+      "item.ancient_forkway.armour_meteoric_helmet": "Meteoric Helmet",
+      "item.ancient_forkway.armour_tenebric_leggings": "Tenebric Leggings",
+      "item_group.ancient_forkway.ancient_forkway": "Ancient Forkway",
+      "item.ancient_forkway.tenebric_hoe": "Tenebric Hoe",
+      "block.ancient_forkway.tenebric_debris": "Interrealm Debris",
+      "item.ancient_forkway.armour_tenebric_helmet": "Tenebric Helmet",
+      "item.ancient_forkway.armour_tenebric_boots": "Tenebric Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ancient_forkway",
+    "modName": "Ancient Forkway",
+    "version": "1.1",
+    "description": "The Ancient Builders may have covered their tracks but the materials afforded by their experiments may still yet remain",
+    "author": "lunakibby, prev. lunabups",
+    "websiteURL": "https://bsky.app/profile/lunakibby.lesbian.cat",
+    "license": "Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "(you)",
+    "modElementsPackage": "net.lunabups.ancientforkway"
+  },
+  "mcreatorVersion": 202400452410
+}

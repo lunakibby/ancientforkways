@@ -1,0 +1,13 @@
+{
+  "type": "ancient_forkway:structure_feature",
+  "config": {
+    "structure": "ancient_forkway:bone_shards_outer",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      3,
+      -2,
+      3
+    ]
+  }
+}

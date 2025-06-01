@@ -1,0 +1,27 @@
+{
+  "feature": "ancient_forkway:inter_skull_rich",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10587
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 156
+        },
+        "max_inclusive": {
+          "absolute": 320
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

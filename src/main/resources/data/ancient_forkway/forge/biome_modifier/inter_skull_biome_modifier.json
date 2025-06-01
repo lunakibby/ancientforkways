@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "end_barrens",
+    "end_highlands",
+    "end_midlands",
+    "small_end_islands"
+  ],
+  "features": "ancient_forkway:inter_skull",
+  "step": "surface_structures"
+}

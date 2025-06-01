@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Ancient Dedication",
+    "achievementDescription": "The Dedication to make something so powerful, just for it to become one with the dirt...",
+    "achievementIcon": {
+      "value": "CUSTOM:TMHoe"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 15,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "husbandry/obtain_netherite_hoe"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"3\" y=\"46\"/></next></block></xml>"
+  }
+}

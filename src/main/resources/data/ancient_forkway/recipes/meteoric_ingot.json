@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mt_ingot",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a b",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "ancient_forkway:meteoric_scrap"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "ancient_forkway:meteoric_ingot",
+    "count": 1
+  }
+}

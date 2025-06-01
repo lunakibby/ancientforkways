@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_forkway:block/tenebric_debris_top",
+    "up": "ancient_forkway:block/tenebric_debris_top",
+    "north": "ancient_forkway:block/tenebric_debris",
+    "east": "ancient_forkway:block/tenebric_debris",
+    "south": "ancient_forkway:block/tenebric_debris",
+    "west": "ancient_forkway:block/tenebric_debris",
+    "particle": "ancient_forkway:block/tenebric_debris_top"
+  },
+  "render_type": "solid"
+}

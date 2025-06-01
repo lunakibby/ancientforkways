@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "ancient_forkway:meteoric_ingot"
+  },
+  "template": {
+    "item": "ancient_forkway:meteoric_upgrade_smithing_template"
+  },
+  "addition": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "ancient_forkway:armour_meteoric_leggings"
+  }
+}

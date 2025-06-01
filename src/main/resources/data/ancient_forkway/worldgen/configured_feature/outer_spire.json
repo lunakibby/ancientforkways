@@ -1,0 +1,13 @@
+{
+  "type": "ancient_forkway:structure_feature",
+  "config": {
+    "structure": "ancient_forkway:outer_spire",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      3,
+      0,
+      3
+    ]
+  }
+}

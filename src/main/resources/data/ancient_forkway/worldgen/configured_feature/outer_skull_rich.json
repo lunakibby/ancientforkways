@@ -1,0 +1,9 @@
+{
+  "type": "ancient_forkway:structure_feature",
+  "config": {
+    "structure": "ancient_forkway:outer_skull_rich",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

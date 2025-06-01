@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ancient_forkway:tenebric_debris",
+    "ancient_forkway:tenebric_block",
+    "ancient_forkway:meteoric_debris",
+    "ancient_forkway:meteoric_block"
+  ]
+}

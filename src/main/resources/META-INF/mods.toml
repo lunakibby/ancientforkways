@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)"
+
+[[mods]]
+modId="ancient_forkway"
+version="1.1"
+displayName="Ancient Forkway"
+displayURL="https://bsky.app/profile/lunakibby.lesbian.cat"
+credits="(you)"
+authors="lunakibby, prev. lunabups"
+description="The Ancient Builders may have covered their tracks but the materials afforded by their experiments may still yet remain"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ancient_forkway]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
